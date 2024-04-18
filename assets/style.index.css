@@ -24,9 +24,15 @@ header {
     border-radius: 6px;
     height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+}
+
+#image-profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
 }
 
 #principal {
@@ -50,4 +56,24 @@ aside {
     border-radius: 6px;
     height: 100%;
     width: 25%;
+}
+
+footer {
+    background-color: rgb(0, 255, 255);
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
 }
